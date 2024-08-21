@@ -1,13 +1,70 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="en" data-theme="light">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Assignment3</title>
     <link href="https://cdn.jsdelivr.net/npm/daisyui@4.12.10/dist/full.min.css" rel="stylesheet" type="text/css" />
 <script src="https://cdn.tailwindcss.com"></script>
+<script src="https://kit.fontawesome.com/3d13942c3b.js" crossorigin="anonymous"></script>
 </head>
 <body>
-    
+    <header class="container mx-auto">
+        <nav>
+            <div class="navbar bg-base-100">
+                <div class="navbar-start flex items-center">
+                    <i class="fa-solid fa-arrow-right bg-[#ABEF5F] p-2 rounded-full -rotate-45"></i>
+                  <a class="btn btn-ghost text-3xl font-bold text-[#212121]">Rinterio</a>
+                </div>
+                <div class="navbar-center hidden lg:flex">
+                  <ul class="menu menu-horizontal px-1 space-x-10">
+                    <li class="text-[#494949] font-semibold">Home</li>
+                    <li class="text-[#737373] font-semibold">Services</li>
+                    <li class="text-[#737373] font-semibold">Portfolio</li>
+                    <li class="text-[#737373] font-semibold">Blogs</li>
+                    <li class="text-[#737373] font-semibold">Contact Us</li>
+                  </ul>
+                </div>
+                <div class="navbar-end space-x-2">
+                    <div class=" hidden md:flex lg:flex sm:flex">
+                        <div class="flex justify-center items-center">
+                            <i class="fa-solid fa-magnifying-glass  bg-white p-2 rounded-full text-black"></i>
+                            <i class="fa-solid fa-cart-shopping  bg-white p-2 rounded-full text-black"></i>
+                        </div>
+                            <div class="bg-[#ABEF5F] px-3 py-1 rounded-full ">
+                               <a class="font-bold">Book Consult</a>
+                               <i class="fa-solid fa-arrow-right bg-[#212121] p-2 rounded-full -rotate-45 text-white"></i>
+                     </div>
+                    </div>
+                 <div class="dropdown">
+                    <div tabindex="0" role="button" class="btn btn-ghost lg:hidden ">
+                      <svg
+                        xmlns="http://www.w3.org/2000/svg"
+                        class="h-5 w-5"
+                        fill="none"
+                        viewBox="0 0 24 24"
+                        stroke="currentColor">
+                        <path
+                          stroke-linecap="round"
+                          stroke-linejoin="round"
+                          stroke-width="2"
+                          d="M4 6h16M4 12h8m-8 6h16" />
+                      </svg>
+                    </div>
+                    <ul
+                      tabindex="0"
+                      class="menu menu-sm dropdown-content bg-base-100 rounded-box z-[1] pr-0 shadow space-y-1">
+                      <li>Home</li>
+                      <li>Services</li>
+                      <li>Portfolio</li>
+                      <li>Blogs</li>
+                      <li>Contact Us</li>
+                    </ul>
+                  </div>
+                </div>
+               
+              </div>
+        </nav>
+    </header>
 </body>
 </html>
